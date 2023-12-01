@@ -1,0 +1,6 @@
+Instalirati web poslužitelj nginx -> da, s http://nginx.org/
+Izraditi vlastiti SSL certifikat -> da, skinuo sam openssl i tako napravio certifikat s naredbom openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes
+Aktivirati HTTPS/SSL -> aktivirano dodatkom 443 ssl u listen dio
+Konfigurirati podršku za HTTP/2 protokol u nginx poslužitelju 
+Uključiti HTTP/2 protokol -> dodan http2 u listen
+Potvrditi da je podrška za HTTP/2 protokol uključena -> potvrđeno third-party alatom i devtoolsima, screenshotovi dokazuju to (kako je pokazano u predavanju pogledano u devtoolsima)

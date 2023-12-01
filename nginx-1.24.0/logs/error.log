@@ -1,0 +1,30 @@
+2023/11/30 19:36:37 [error] 21320#11516: *1 CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/11/30 19:38:42 [notice] 21508#9316: signal process started
+2023/11/30 19:42:38 [emerg] 7876#3292: unknown directive "test1" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:43:12 [emerg] 16684#13192: unknown directive "test1" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:43:22 [emerg] 21784#6492: unknown directive "test1" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:43:30 [emerg] 7684#11672: unknown directive "test1" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:43:39 [emerg] 24184#23740: unknown directive "test" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:43:45 [emerg] 24256#20700: unknown directive "test" in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:46
+2023/11/30 19:45:31 [notice] 24328#14196: signal process started
+2023/11/30 19:45:52 [notice] 6416#12012: signal process started
+2023/12/01 15:51:01 [error] 10948#14936: *2 CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/01 15:51:49 [emerg] 24480#12796: cannot load certificate "./ssl_data/localhost.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('./ssl_data/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/12/01 15:52:11 [notice] 1140#8148: signal process started
+2023/12/01 15:55:41 [notice] 7812#12524: signal process started
+2023/12/01 16:01:23 [emerg] 23224#20524: cannot load certificate "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/12/01 16:01:25 [emerg] 2592#23108: cannot load certificate "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/12/01 16:25:07 [notice] 2336#12848: signal process started
+2023/12/01 16:26:06 [notice] 10088#11632: signal process started
+2023/12/01 16:27:54 [notice] 21676#16432: signal process started
+2023/12/01 16:27:54 [error] 21676#16432: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/01 16:29:18 [notice] 23212#5060: signal process started
+2023/12/01 16:33:58 [error] 8544#2288: *13 CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2023/12/01 16:34:39 [notice] 5016#21656: signal process started
+2023/12/01 16:34:40 [notice] 21928#18440: signal process started
+2023/12/01 16:34:40 [error] 21928#18440: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/01 16:39:52 [emerg] 23252#18320: invalid number of arguments in "ssl_certificate" directive in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:38
+2023/12/01 16:39:53 [emerg] 14216#23732: invalid number of arguments in "ssl_certificate" directive in C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/conf/nginx.conf:38
+2023/12/01 16:40:23 [notice] 908#21116: signal process started
+2023/12/01 16:40:24 [notice] 13208#24328: signal process started
+2023/12/01 16:40:24 [error] 13208#24328: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
