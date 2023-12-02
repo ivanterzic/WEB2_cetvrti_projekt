@@ -4,3 +4,7 @@ Aktivirati HTTPS/SSL -> aktivirano dodatkom 443 ssl u listen dio
 Konfigurirati podršku za HTTP/2 protokol u nginx poslužitelju 
 Uključiti HTTP/2 protokol -> dodan http2 u listen
 Potvrditi da je podrška za HTTP/2 protokol uključena -> potvrđeno third-party alatom i devtoolsima, screenshotovi dokazuju to (kako je pokazano u predavanju pogledano u devtoolsima)
+Također u access.log vidim da je HTTP2 korišten za pristup
+Zadnji dio prvog zadatka sam provjerio s izuzetno dugim tekstom na stranici te sam s demonstration_http2 i demonstration_nohttp2 probao koja je razlika
+
+Za drugi dio zadatka sam napravio u html folderu lab4 folder te sam napravio vlastitu web stranicu po principu objašnjenom na predavanjima.
