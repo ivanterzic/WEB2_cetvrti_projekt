@@ -1,5 +1,5 @@
 # WEB2_cetvrti_projekt
-Napomene (također u README.md repozitorija): Sve je uspješno riješeno.
+Sve je uspješno riješeno.
 U github repozitoriju priložene su sve datoteke, cijeli nginx server i folder testImages nalaze se u repozitoriju jer sam u njemu radio, no nisu nužno potrebni za predaju.
 Pisao sam i svojevrsni "dnevnik rada" u datoteci opisKoraka.txt, u njemu je i opis što pojedina datoteka predstavlja.
    
