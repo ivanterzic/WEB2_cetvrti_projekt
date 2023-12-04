@@ -50,3 +50,54 @@
 2023/12/02 14:27:30 [notice] 12004#21832: signal process started
 2023/12/02 14:27:31 [notice] 10068#18084: signal process started
 2023/12/02 14:27:31 [error] 10068#18084: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 15:25:34 [notice] 17920#18060: signal process started
+2023/12/02 15:25:36 [notice] 17216#24504: signal process started
+2023/12/02 15:25:36 [error] 17216#24504: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:20:19 [notice] 4324#11224: signal process started
+2023/12/02 19:20:20 [notice] 19392#32: signal process started
+2023/12/02 19:20:20 [error] 19392#32: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:41:11 [notice] 6648#18028: signal process started
+2023/12/02 19:41:12 [notice] 14512#22632: signal process started
+2023/12/02 19:41:12 [error] 14512#22632: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:42:05 [notice] 20512#17900: signal process started
+2023/12/02 19:42:06 [notice] 14636#23112: signal process started
+2023/12/02 19:42:07 [notice] 15768#14796: signal process started
+2023/12/02 19:42:08 [notice] 17176#4960: signal process started
+2023/12/02 19:42:09 [notice] 8748#10136: signal process started
+2023/12/02 19:42:09 [notice] 3784#11560: signal process started
+2023/12/02 19:42:10 [notice] 10532#11856: signal process started
+2023/12/02 19:42:10 [notice] 23776#2644: signal process started
+2023/12/02 19:42:10 [error] 23776#2644: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:42:12 [notice] 22856#540: signal process started
+2023/12/02 19:42:12 [error] 22856#540: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:42:13 [notice] 20752#5548: signal process started
+2023/12/02 19:42:13 [error] 20752#5548: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/02 19:45:15 [notice] 19344#3596: signal process started
+2023/12/02 19:45:16 [notice] 13524#17692: signal process started
+2023/12/02 19:45:16 [error] 13524#17692: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 15:10:58 [error] 8264#5104: *16 CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/html/lab4/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2023/12/04 15:13:27 [notice] 11496#3664: signal process started
+2023/12/04 15:13:28 [notice] 8408#13716: signal process started
+2023/12/04 15:13:28 [error] 8408#13716: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 15:14:03 [notice] 18236#11000: signal process started
+2023/12/04 15:14:05 [notice] 13716#8408: signal process started
+2023/12/04 15:14:05 [error] 13716#8408: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 15:15:25 [notice] 16332#7296: signal process started
+2023/12/04 15:15:27 [notice] 4160#2460: signal process started
+2023/12/04 15:15:29 [notice] 9380#18636: signal process started
+2023/12/04 15:15:29 [error] 9380#18636: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 15:21:14 [error] 14560#7588: *27 CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/html/lab4/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost", referrer: "https://localhost/"
+2023/12/04 15:39:58 [notice] 17800#7884: signal process started
+2023/12/04 15:39:59 [notice] 9456#11788: signal process started
+2023/12/04 15:39:59 [error] 9456#11788: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 16:10:25 [notice] 7748#17264: signal process started
+2023/12/04 16:10:25 [notice] 16604#8116: signal process started
+2023/12/04 16:10:25 [error] 16604#8116: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 16:16:34 [notice] 2052#5840: signal process started
+2023/12/04 16:16:35 [notice] 19228#9560: signal process started
+2023/12/04 16:16:35 [error] 19228#9560: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 16:54:01 [notice] 17780#16704: signal process started
+2023/12/04 16:54:02 [notice] 2812#5260: signal process started
+2023/12/04 16:54:02 [error] 2812#5260: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 16:54:03 [notice] 2548#10024: signal process started
+2023/12/04 16:54:03 [error] 2548#10024: CreateFile() "C:\Users\Ivan\Documents\FER\1. semestar\web2\lab\WEB2_cetvrti_projekt\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)

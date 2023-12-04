@@ -1,5 +1,4 @@
 const titleElement = document.getElementById("title");
-console.log(titleElement);
 titleElement.style.position = "absolute";
 let position = 0;
 let direction = 1; 

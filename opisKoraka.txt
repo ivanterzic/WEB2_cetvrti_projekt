@@ -7,4 +7,20 @@ Potvrditi da je podrška za HTTP/2 protokol uključena -> potvrđeno third-party
 Također u access.log vidim da je HTTP2 korišten za pristup
 Zadnji dio prvog zadatka sam provjerio s izuzetno dugim tekstom na stranici te sam s demonstration_http2 i demonstration_nohttp2 probao koja je razlika
 
-Za drugi dio zadatka sam napravio u html folderu lab4 folder te sam napravio vlastitu web stranicu po principu objašnjenom na predavanjima.
+Za drugi dio zadatka sam napravio u html folderu lab4 folder te sam napravio vlastitu web stranicu po principu objašnjenom na predavanjima. 
+napravio sam stranicu s 50 manjih slika i učitava 5 CSS i 2 JS filea kako bi se pokazala prednost HTTP2 protokola.
+Screenshotao sam Network tab kao "log stranice" u kojima se vidi da se sama stranica, slike, JS i CSS datoteke dohvaćaju s ili bez HTTP2 protokola.
+Pri istim sam testovima izradio i HAR datoteke te ih preuzeo kao što je pokazano na predavanjima.
+razlika u performansama je najočitija na vremenu učitavanja koje s korištenjem binarnog kodiranja, multipleksiranja i ostalih benefita HTTP 2 pada s 586 na 332ms.
+
+U ovom se git repozitoriju nalaze:
+1.) nginx folder -> u njemu se nalazi cijeli nginx server folder koji sam koristio za pokretanje stranice
+2.) lab4 folder -> u njemu se nalazi napravljena stranica zajedno sa svim svojim resursima
+3.) testImages folder -> u njemu se nalaze screenshoti koje sam za sebe pohranio kao dokaz da http2 radi i kako sam shvatio kad je upaljen, a kad ne
+4.) nginx.conf -> tražena konfiguracijska datoteka nginx servera, u ovom je stanju podešena za http2, kad sam htio http1.1 sam u server listen stavio 443 ssl umjesto 443 ssl http2
+5.) http2.har -> datoteka tražena u zadatku, snimljen promet s http2 protokolom, no maknuo sam redundatne podatke, ostavio sam po 1 zapis o zahtjevu i odgovoru za : dokument, skriptu, stylesheet i image kako bi bilo lakše pregledati zapis
+6.) http2_full.har -> analogno pod 5.), ostavljen sav promet (58 zahtjeva)
+7.) no_http2.har -> datoteka tražena u zadatku, snimljen promet bez http2 protokola, sve se prenosilo s http/1.1, no maknuo sam redundatne podatke, ostavio sam po 1 zapis o zahtjevu i odgovoru za : dokument, skriptu, stylesheet i image kako bi bilo lakše pregledati zapis
+8.) no_http2_full.har -> analogno pod 7.), ostavljen sav promet (58 zahtjeva)
+9.) i 10.) http2.jpg i no_http2.jpg -> traženi screenshoti loga preglednika (Network kartice) koji jasno prikazuju razlike između performansi sa i bez HTTP2 protokola.
+
